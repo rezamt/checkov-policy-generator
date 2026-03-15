@@ -1,4 +1,4 @@
-# checkov-policy-generator
+# Checkov Policy Generator
 
 Generates Checkov custom policies from various AWS sources.
 
