@@ -2,6 +2,13 @@
 
 Generates Checkov custom policies from various AWS sources.
 
+## Architecture
+
+- **Scanner** — responsible for fetching and parsing data from a source (e.g. scraping a web page, calling an API). Returns a list of raw values.
+- **Generator** — takes the scanner output and transforms it into a Checkov-compatible YAML policy file.
+
+Each generator has its own scanner under `src/scanner/` and its own generator under `src/generators/`.
+
 ## Requirements
 
 - [uv](https://docs.astral.sh/uv/)
