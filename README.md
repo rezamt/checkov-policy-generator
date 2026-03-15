@@ -20,9 +20,9 @@ uv run main.py <generator> <output_file>
 
 ### Generators
 
-| Generator | Description |
-|---|---|
-| `aws-managed-policy` | Scrapes all AWS managed policies and generates a Checkov policy that blocks them from being attached to IAM principals |
+| Generator | Description | Docs |
+|---|---|---|
+| `aws-managed-policy` | Scrapes all AWS managed policies and generates a Checkov policy that blocks them from being attached to IAM principals | [doc/generators/aws-managed-policy.md](doc/generators/aws-managed-policy.md) |
 
 ### Example
 
